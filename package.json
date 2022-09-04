@@ -1,0 +1,31 @@
+{
+  "name": "nameprogram",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "browser": "src/js/index.js",
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.4",
+    "vite": "^2.6.7"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shirin20/nameProgram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shirin20/nameProgram/issues"
+  },
+  "homepage": "https://github.com/Shirin20/nameProgram#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
